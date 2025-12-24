@@ -187,7 +187,7 @@ const faqs = [
   {
     id: 3,
     question: 'كيف يمكنني طلب المنتج؟',
-    answer: 'يمكنك الطلب عبر الواتساب على الرقم 0155 063 2096 أو الاتصال على 01120037800.'
+    answer: 'يمكنك الطلب عبر الواتساب على الرقم 01550632096 أو الاتصال على 01120037800.'
   },
   {
     id: 4,
@@ -332,7 +332,7 @@ function App() {
                       <span className="product-badge">{selectedVariant.badge}</span>
                     )}
                     <img
-                      src={selectedVariant.imageSrc}
+                      src="/images/full.png"
                       alt={`خلاط New Smart - ${selectedVariant.nameAr}`}
                       width="800"
                       height="800"
